@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   try {
     const proxyResponse = await axios.get(targetUrl, {
       proxy: {
-        host: '138.199.5.146', // Example Singapore proxy (HTTP)
+        host: '128.199.90.208', // Example Singapore proxy (HTTP)
         port: 3128
       },
       headers: {
